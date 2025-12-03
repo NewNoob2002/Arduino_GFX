@@ -2,12 +2,10 @@ set (COMPONENTS_ROOT ${CMAKE_CURRENT_LIST_DIR})
 
 set(COMPONENT_ADD_INCLUDEDIRS
     ${COMPONENTS_ROOT}/src
-    ${COMPONENTS_ROOT}/src/common
-    ${COMPONENTS_ROOT}/src/ExFatLib
-    ${COMPONENTS_ROOT}/src/FatLib
-    ${COMPONENTS_ROOT}/src/FsLib
-    ${COMPONENTS_ROOT}/src/iostream
-    ${COMPONENTS_ROOT}/src/SdCard
+    ${COMPONENTS_ROOT}/src/canvas
+    ${COMPONENTS_ROOT}/src/databus
+    ${COMPONENTS_ROOT}/src/display
+    ${COMPONENTS_ROOT}/src/font
     )
 file(GLOB_RECURSE  SRCS
     ${COMPONENTS_ROOT}/src/*.cpp
